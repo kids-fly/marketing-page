@@ -1,17 +1,17 @@
 .header{
-    padding:400px;
    background: url("header-img.jpg");
    background-repeat: no-repeat;
    background-size:cover;
    background-position:center;
     width:100%;
-   
+    padding:400px;
+    display: block;
+
+   margin-bottom: 2rem;
     @media @phone {
-        margin-left:5rem;
-        margin-bottom:25rem;
-        width:100%;
-        background: none;
-        
+       
+       background:none;
+        padding: 15px;
         
       }
 }
@@ -19,17 +19,20 @@
     width:@width;
     position: @stay;
     margin-left:-25rem;
-    margin-top:16.5rem;
+    margin-top:16rem;
     background-color: blue;
     opacity:0.9;
-    
+    margin-bottom:2rem;
     color:white;
     padding:2rem;
     font-size:20px;
     display:@flexin;
     @media @phone {
-        display: none;
-      
+        background:none;
+        position: relative;
+        display: block;
+      margin-top:-20rem;
+      margin-left:-5rem;
        
       }
 
@@ -37,7 +40,7 @@
 .mission-p{
     margin-left:3rem;
     width:100%;
-    border:solid red 2px;
+    
     
     @media @phone{
         text-align:center;
@@ -49,7 +52,7 @@
     width:@width;
     @media @phone {
        
-     
+     display:none;
          
          
        }
@@ -73,7 +76,7 @@
 padding-bottom: 5rem;
 
 @media @phone{
-    margin-top:-25rem;
+    margin-top:-33rem;
 
 }
 }
@@ -98,13 +101,16 @@ padding-bottom: 5rem;
 .md-p{
     margin-left:5rem;
     @media @phone{
-        margin-top:-25rem;
+        margin-top:0rem;
         margin-left:8rem;
        
     }
 }
 .md-img{
     
+    @media @phone{
+        width:100%;
+    }
 }
 
 
@@ -132,7 +138,7 @@ display:block;
 }
 }
 button{
-    margin-left:50rem;
+    margin-left:35rem;
     padding-top:-2rem;
     padding-bottom:-2rem;
     padding-left: 1rem;
@@ -140,11 +146,13 @@ button{
     border-radius: 20px;
     background-color: lightgreen;
     opacity: 3;
+    margin-top:-30rem;
+    
 
     @media @phone{
-        margin-left:10rem;
-        margin-top:-15rem;
-        margin-bottom:-3rem;
+    margin-left:6rem;
+        margin-top:-3rem;
+        margin-bottom:0rem;
         width:40%;
     }
 }
